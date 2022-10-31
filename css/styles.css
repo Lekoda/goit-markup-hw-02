@@ -80,6 +80,7 @@ ul {
   background-color: var(--accent);
   color: var(--text-white-color);
   border: none;
+  cursor: pointer;
 }
 /* common rule  */
 .title {
@@ -113,7 +114,6 @@ ul {
   color: var(--text-grey-color);
 }
 .advantages .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7142;
   letter-spacing: 0.03em;
@@ -132,7 +132,6 @@ ul {
   color: var(--text-grey-color);
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
@@ -179,6 +178,7 @@ address a:active {
   letter-spacing: 0.03em;
   background-color: var(--secondary-bcg-color);
   border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: var(--accent);
@@ -193,7 +193,6 @@ address a:active {
   color: var(--text-grey-color);
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
