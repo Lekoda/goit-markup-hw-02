@@ -1,13 +1,3 @@
-/* white bcg color #FFFFFF  */
-/* darkgrey bcg color  #2F303A  */
-/* lightgrey bcg color #F5F4FA  */
-/* accent #2196F3  */
-/* black text color #000000  */
-/* grey text color #212121  */
-/* light grey text color #757575  */
-/* white text color #FFFFFF  */
-/* adittional white text color rgba(255, 255, 255, 0.6)  */
-
 /* Common rules  */
 :root {
   --primary-bcg-color: #ffffff;
@@ -172,9 +162,9 @@ address {
 .address-link {
   color: var(--text-white-opacity);
 }
-.address-link:hover,
-.address-link:focus,
-.address-link:active {
+address a:hover,
+address a:focus,
+address a:active {
   color: var(--accent);
 }
 
