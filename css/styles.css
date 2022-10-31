@@ -25,4 +25,134 @@ body {
   color: var(--text-lightgrey-color);
   font-family: "Roboto", sans-serif;
 }
+ul {
+    list-style-type: none;
+}
 /* LOGO  */
+.logo {
+  color: var(--text-black-color);
+  font-family: "Raleway"; sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+}
+.logo-element {
+  color: var(--accent);
+}
+/* HEADER  */
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--text-grey-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus, 
+.site-nav .link:active {
+  color: var(--accent);
+}
+.site-nav .link.current {
+  color: var(--accent);
+}
+.contacts .link {
+  color: var(--text-lightgrey-color);
+}
+.contacts .link:hover,
+.contacts .link:focus,
+.contacts .link:active {
+  color: var(--accent);
+}
+/* HERO SECTION  */
+.hero {
+  background: var(--accent-bcg-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background-color: var(--accent);
+  color: var(--text-white-color);
+  border: none;
+}
+/* common rule  */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+/* SECTION ADVANTAGES */
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-grey-color);
+}
+.advantages .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--text-lightgrey-color);
+}
+/* SECTION TEAM  */
+.team {
+  background-color: var(--secondary-bcg-color);
+}
+.team-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-grey-color);
+}
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-lightgrey-color);
+}
+/* FOOTER  */
+footer a {
+  text-decoration: none;
+}
+footer {
+  background-color: var(--accent-bcg-color);
+}
+footer .logo {
+  color: var(--text-white-color);
+}
+address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  }
+.address-text {
+  color: var(--text-white-color);
+}  
+.address-link {
+  color: var(--text-white-opacity)
+}
