@@ -41,6 +41,9 @@ ul {
   color: var(--accent);
 }
 /* HEADER  */
+.header a {
+  text-decoration: none;
+}
 .header {
   font-weight: 500;
   font-size: 14px;
@@ -98,6 +101,19 @@ ul {
   color: var(--text-grey-color);
 }
 /* SECTION ADVANTAGES */
+.hide {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px,);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
 .advantages-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -155,4 +171,41 @@ address {
 }  
 .address-link {
   color: var(--text-white-opacity)
+}
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
+  color: var(--accent);
+}
+
+/* PORTFOLIO PAGE  */
+/* buttons  */
+.btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--secondary-bcg-color);
+color: var(--text-grey-color);
+border: none;
+}
+.btn:hover {
+  background-color: var(--accent);
+  color: var(--text-white-color);
+}
+/* potfolio  */
+.portfolio-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--text-grey-color);
+}
+.portfolio-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--text-lightgrey-color);
 }
